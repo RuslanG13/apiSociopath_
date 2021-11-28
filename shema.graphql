@@ -3,7 +3,7 @@ directive @specifiedBy(
   """The URL that specifies the behaviour of this scalar."""
   url: String!
 ) on SCALAR
-
+      
 type Comment {
   _id: ID!
   parentId: ID
