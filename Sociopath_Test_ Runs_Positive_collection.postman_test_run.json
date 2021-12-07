@@ -1,0 +1,1220 @@
+{
+	"id": "e13f9b44-bd11-49e6-ac8d-aae7f37a8f16",
+	"name": "Sociopath_Test_ Runs_Positive_collection",
+	"timestamp": "2021-12-07T20:35:07.457Z",
+	"collection_id": "11706544-b294bad5-a66a-42fb-9d58-921cff431e3d",
+	"folder_id": 0,
+	"environment_id": "bb068808-25d3-41e0-974a-7ca8961ba810",
+	"totalPass": 92,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bb3a12d9-5839-4d3b-b109-f8d8e2bd9d45",
+			"name": "userCreate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 2200,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2200
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2600ms": true
+				}
+			]
+		},
+		{
+			"id": "de0caa4c-db97-450f-8dc9-5c28840bf53f",
+			"name": "userActivate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 274,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				274
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "e832f780-7b3f-4b0a-afec-7848b6b82ef0",
+			"name": "login ",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 465,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true,
+				"First name verification": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"First name verification": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				465
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true,
+					"First name verification": true
+				}
+			]
+		},
+		{
+			"id": "b204afe2-1467-4fb6-aa86-020d2f4ca71d",
+			"name": "userUpdate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 274,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				274
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "25de80b0-70b8-4ac8-84b1-1e02298b72ec",
+			"name": "publicationCreate\"",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 204,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "fb139c1d-2f1b-4dfe-b1ce-41264df504fb",
+			"name": "publications",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 273,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				273
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "112daace-9921-47f5-8997-12d7561f3de3",
+			"name": "publicationUpdate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true,
+				"Publication updated": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Publication updated": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true,
+					"Publication updated": true
+				}
+			]
+		},
+		{
+			"id": "5cd56b84-e4da-4c61-b5ca-6d258b8b7165",
+			"name": "publicationLike",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 266,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Publication liked": true,
+				"Response time is less than 2000ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Publication liked": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				266
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Publication liked": true,
+					"Response time is less than 2000ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "ec84f0b1-49da-49d2-9568-6f4899518604",
+			"name": "commentCreate-",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "500e71ac-3379-49db-939a-9ace9ef04244",
+			"name": "commentUpdate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "69f501ad-455d-41aa-86dc-ce4c6815526b",
+			"name": "commentLike",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 265,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true,
+				"Comment liked": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Comment liked": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				265
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true,
+					"Comment liked": true
+				}
+			]
+		},
+		{
+			"id": "68ce3d30-52d9-4d47-9614-20efb1a5a365",
+			"name": "publicationDelete",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 203,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				203
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "71dac400-dbcb-443b-9dfc-b3f81c55ebaf",
+			"name": "commentDelete",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true,
+				"Comment deleted": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Comment deleted": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				209
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true,
+					"Comment deleted": true
+				}
+			]
+		},
+		{
+			"id": "320ad2d5-46f8-412b-8f36-375c97ddf5fc",
+			"name": "companyCreate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "4e23bd9f-1e95-48e8-8ad5-da4ab55f16c7",
+			"name": "companyUpdate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 268,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true,
+				"Company updated verification": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Company updated verification": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				268
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true,
+					"Company updated verification": true
+				}
+			]
+		},
+		{
+			"id": "ad75c981-2127-46f7-b184-9de49f9c7ad6",
+			"name": "problemCreate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 268,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true,
+				"Problem created verification": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Problem created verification": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				268
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true,
+					"Problem created verification": true
+				}
+			]
+		},
+		{
+			"id": "14d9318c-4ee5-498e-9a42-441fa1d9e8c4",
+			"name": "problems",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 216,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				216
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "b7a502b2-d3d8-48ec-a393-316671c88500",
+			"name": "problemUpdate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 269,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true,
+				"Problem updated verification": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Problem updated verification": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				269
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true,
+					"Problem updated verification": true
+				}
+			]
+		},
+		{
+			"id": "00d2d179-e557-403a-8f54-de4435173087",
+			"name": "solutionCreate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 1713,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2500ms": true,
+				"Solution created verification": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Solution created verification": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1713
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2500ms": true,
+					"Solution created verification": true
+				}
+			]
+		},
+		{
+			"id": "ba33e098-5ec9-44e3-ac52-a2c1789b8ec6",
+			"name": "solutions",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 260,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				260
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "38809a58-9a47-4f43-a151-422ada165599",
+			"name": "solutionUpdate",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 1645,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1645
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2500ms": true
+				}
+			]
+		},
+		{
+			"id": "77f8dd87-d5c1-476d-8a9c-f34499b9af3a",
+			"name": "solutionLike",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2500ms": true
+				}
+			]
+		},
+		{
+			"id": "ba35cd09-b701-484b-8dab-a7f43aac6046",
+			"name": "solutionDelete",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 272,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				272
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "3f9830fb-3e27-4047-a639-d289f0f2501a",
+			"name": "problemDelete",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2000ms": true,
+				"Problem deleted verification": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Problem deleted verification": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				328
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2000ms": true,
+					"Problem deleted verification": true
+				}
+			]
+		},
+		{
+			"id": "1e4f1029-73a9-44a9-b03d-ebc032b69e90",
+			"name": "companyDelete",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 267,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 1000ms": true,
+				"Company deleted verification": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Company deleted verification": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				267
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 1000ms": true,
+					"Company deleted verification": true
+				}
+			]
+		},
+		{
+			"id": "ae5bf1f7-9c3e-49b9-a75e-26c2100019f2",
+			"name": "logout Copy",
+			"url": "https://enduring-server.herokuapp.com/v3/graphql",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name has string": true,
+				"Response time is less than 2600ms": true,
+				"Logout_test": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2600ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Logout_test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name has string": true,
+					"Response time is less than 2600ms": true,
+					"Logout_test": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 11555,
+	"collection": {
+		"requests": [
+			{
+				"id": "bb3a12d9-5839-4d3b-b109-f8d8e2bd9d45",
+				"method": "POST"
+			},
+			{
+				"id": "de0caa4c-db97-450f-8dc9-5c28840bf53f",
+				"method": "POST"
+			},
+			{
+				"id": "e832f780-7b3f-4b0a-afec-7848b6b82ef0",
+				"method": "POST"
+			},
+			{
+				"id": "b204afe2-1467-4fb6-aa86-020d2f4ca71d",
+				"method": "POST"
+			},
+			{
+				"id": "25de80b0-70b8-4ac8-84b1-1e02298b72ec",
+				"method": "POST"
+			},
+			{
+				"id": "fb139c1d-2f1b-4dfe-b1ce-41264df504fb",
+				"method": "POST"
+			},
+			{
+				"id": "112daace-9921-47f5-8997-12d7561f3de3",
+				"method": "POST"
+			},
+			{
+				"id": "5cd56b84-e4da-4c61-b5ca-6d258b8b7165",
+				"method": "POST"
+			},
+			{
+				"id": "ec84f0b1-49da-49d2-9568-6f4899518604",
+				"method": "POST"
+			},
+			{
+				"id": "500e71ac-3379-49db-939a-9ace9ef04244",
+				"method": "POST"
+			},
+			{
+				"id": "69f501ad-455d-41aa-86dc-ce4c6815526b",
+				"method": "POST"
+			},
+			{
+				"id": "68ce3d30-52d9-4d47-9614-20efb1a5a365",
+				"method": "POST"
+			},
+			{
+				"id": "71dac400-dbcb-443b-9dfc-b3f81c55ebaf",
+				"method": "POST"
+			},
+			{
+				"id": "320ad2d5-46f8-412b-8f36-375c97ddf5fc",
+				"method": "POST"
+			},
+			{
+				"id": "4e23bd9f-1e95-48e8-8ad5-da4ab55f16c7",
+				"method": "POST"
+			},
+			{
+				"id": "ad75c981-2127-46f7-b184-9de49f9c7ad6",
+				"method": "POST"
+			},
+			{
+				"id": "14d9318c-4ee5-498e-9a42-441fa1d9e8c4",
+				"method": "POST"
+			},
+			{
+				"id": "b7a502b2-d3d8-48ec-a393-316671c88500",
+				"method": "POST"
+			},
+			{
+				"id": "00d2d179-e557-403a-8f54-de4435173087",
+				"method": "POST"
+			},
+			{
+				"id": "ba33e098-5ec9-44e3-ac52-a2c1789b8ec6",
+				"method": "POST"
+			},
+			{
+				"id": "38809a58-9a47-4f43-a151-422ada165599",
+				"method": "POST"
+			},
+			{
+				"id": "77f8dd87-d5c1-476d-8a9c-f34499b9af3a",
+				"method": "POST"
+			},
+			{
+				"id": "ba35cd09-b701-484b-8dab-a7f43aac6046",
+				"method": "POST"
+			},
+			{
+				"id": "3f9830fb-3e27-4047-a639-d289f0f2501a",
+				"method": "POST"
+			},
+			{
+				"id": "1e4f1029-73a9-44a9-b03d-ebc032b69e90",
+				"method": "POST"
+			},
+			{
+				"id": "ae5bf1f7-9c3e-49b9-a75e-26c2100019f2",
+				"method": "POST"
+			}
+		]
+	}
+}
